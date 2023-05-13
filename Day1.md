@@ -1,4 +1,4 @@
-Day 1
+Day 1 (DevOps process)
 =====
 ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/691ac5f3-7354-451f-9365-8e5a87545341)
 Code 
