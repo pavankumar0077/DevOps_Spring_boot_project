@@ -39,6 +39,18 @@ Here binding service class with controller class
 
 ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/ade98483-7169-4bfa-81b0-1e6ffb44b022)
 
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/62f31bd4-7848-4329-a996-fd23af79facd)
+
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/d16e8f79-6f3e-45a9-8907-ebddc8bcf327)
+
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/c487b4dc-db66-48b9-bd67-357fb9766625)
+
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/fceed7dd-448a-4ee3-88bd-760cd6a1bb11)
+
+
+
+
+
 
 
 
