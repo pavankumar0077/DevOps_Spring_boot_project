@@ -47,6 +47,20 @@ Here binding service class with controller class
 
 ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/fceed7dd-448a-4ee3-88bd-760cd6a1bb11)
 
+MY SQL DB
+==========
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/5a71a491-eec8-4e1c-82a9-7356097b38bb)
+
+kubernetes Architecture
+=======================
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/3a3115e1-5f7e-4016-9d7e-b1b8425efcac)
+
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/0ae8194f-ad62-4325-8b48-8013caa77029)
+
+
+
+
+
 
 
 
