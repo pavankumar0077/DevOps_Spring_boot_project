@@ -37,4 +37,15 @@ FROM HERE WE ARE GETTING VALUES OF MYSQL DB to App.yml file
 
 ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/172df000-0c7d-4f44-b906-ed9ccec12f9f)
 
+DAO CLASS
+---
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/dbd770ec-50cd-424e-9f8e-52b30fe09a09)
+
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/f43df7b5-7016-4532-b64f-df0f813389d6)
+
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/6d6f8c4c-737e-407b-86bc-72aafe735cfa)
+
+
+
+
 
