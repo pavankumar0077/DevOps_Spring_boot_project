@@ -45,6 +45,11 @@ DAO CLASS
 
 ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/6d6f8c4c-737e-407b-86bc-72aafe735cfa)
 
+KUBERNETES ARCHITECRE
+=====================
+
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/9c72caed-fd97-405b-ad63-849b4b5a458b)
+
 
 
 
