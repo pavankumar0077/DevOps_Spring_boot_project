@@ -51,6 +51,12 @@ KUBERNETES ARCHITECRE
 ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/9c72caed-fd97-405b-ad63-849b4b5a458b)
 
 
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/fb4b1797-e75a-4f10-8789-7e5ee223ba29)
+
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/f2b7328f-14e1-4a95-b090-502ce7b487b9)
+
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/c4c4a3d1-88f0-4fba-af4c-c9d96fbbb0be)
+
 
 
 
