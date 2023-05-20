@@ -57,6 +57,20 @@ KUBERNETES ARCHITECRE
 
 ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/c4c4a3d1-88f0-4fba-af4c-c9d96fbbb0be)
 
+In spring boot application if we want maven package name as short name (Ex : SNAPSHOT to any name )
+Then add these line in pom.xml file
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/d9e4d988-9428-4c88-ad56-9b1a1cc2bceb)
+
+```maven clean install -DskpTest 
+```
+----  This command is used to build the maven package with skipping the test cases
+
+STEPS TO FOLLOW
+===============
+1) Step 1 -- Convert the Spring boot application into Jar file by using Maven build tool
+2) Step 2 -- Convert the Jar file into Docker image -- Using docker file
+3) 
+
 
 
 
