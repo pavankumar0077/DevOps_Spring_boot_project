@@ -61,15 +61,18 @@ In spring boot application if we want maven package name as short name (Ex : SNA
 Then add these line in pom.xml file
 ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/d9e4d988-9428-4c88-ad56-9b1a1cc2bceb)
 
-```maven clean install -DskpTest 
-```
+
+mvn clean install -DskpTest 
+
 ----  This command is used to build the maven package with skipping the test cases
 
 STEPS TO FOLLOW
 ===============
 1) Step 1 -- Convert the Spring boot application into Jar file by using Maven build tool
 2) Step 2 -- Convert the Jar file into Docker image -- Using docker file
-3) 
+3) Step 3 -- Convert the docker image into pod -- Using kubernetes manifest file
+4) ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/c7f0441b-596c-422b-8c3c-3f1e410c05be)
+5) 
 
 
 
