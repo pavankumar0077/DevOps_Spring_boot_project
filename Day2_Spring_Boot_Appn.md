@@ -100,10 +100,12 @@ IN one picture  ( MAIN IMPLEMENTATION)
 ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/327ca7a9-9e19-4ad7-b826-cc73b6a83df3)
 
 Step1 ) After connecting to the --> Connect as root user 
-``` sudo su
+``` 
+    sudo su
 ```
 Step2) Update the packages
-``` yum update -y 
+```
+    yum update -y 
 ``` 
 Here -y is used to type yes/Y to update the packages
 
@@ -112,10 +114,12 @@ Here -y is used to type yes/Y to update the packages
 step3) Install docker
 ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/68b5880d-8b54-411d-80fb-9525e18279fd)
 
-``` amazon-linux-extras install docker
+```
+    amazon-linux-extras install docker
 ```
 Check docker version
-``` docker -v
+```
+    docker -v
 ```
 Step5) Start docker as service
 ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/4c7775f7-13a0-45f3-9349-207025c226f9)
