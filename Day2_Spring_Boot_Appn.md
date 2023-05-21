@@ -136,7 +136,8 @@ Conntrack is software needed for the kubernetes to run (manikube)
 ```
     yum install conntrack -y
 ```
-``` yum install git -y
+```
+    yum install git -y
 ```
 Step 7) Installing k8's or Kubernets
 Minikube is the platform to start kubernets
