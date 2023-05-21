@@ -72,7 +72,102 @@ STEPS TO FOLLOW
 2) Step 2 -- Convert the Jar file into Docker image -- Using docker file
 3) Step 3 -- Convert the docker image into pod -- Using kubernetes manifest file
 4) ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/c7f0441b-596c-422b-8c3c-3f1e410c05be)
-5) 
+5) ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/f2a9524e-3a96-4a66-be6c-ff107b99b1fb)
+6) ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/d6f0da3a-0b90-4733-8831-c733d474220e)
+7) kubernets file for springboot application : ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/f71ea0de-f8fb-4b33-9cb1-7ae3c3d4da53)
+8) Types of kind in kubernets file : ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/e5d4b903-b65a-4d16-8ee6-0ac6c5ace2a8)
+9) Pod is container internally (Docker image) ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/bc2364c7-511c-4846-902d-be502c150025)
+10) ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/46ec0934-99bd-4a3a-8835-30be30b5c59f)
+11) Docker file port number and kubernetes manifest file application spec - port should match
+12) ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/8ccbc90a-ba6e-4fb1-9a1f-82d91048f626)
+13) ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/7fc29bb7-28f8-4552-b077-dc49d78b7766)
+12 and 13 in 12th image we are setting evn values for the application.yml file -- Here container is hitting with external values
+14) In kubernetes When we hit the rest endpoint 1st it will go to service pod and then it will go to actual application pod
+15) In Front of the application pod we have service pod ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/810d1f36-cd7e-4327-8804-6628be1ab13e)
+16) This is service pod to application pod is done by using selector lable ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/6dc7c95c-2809-45b4-93b9-9c219e6224a0)
+17) Here service pod port is 8080 and application target port is 8080 when request comes to service pod it will redirect to java application pod
+18) ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/e57240ee-777f-4a68-a15e-749eeae0b989)
+19) DB manifest file ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/44a4a98b-6cee-4eb7-a96e-04abd9b76a1f)
+20) Here we are asking for memory allocation for kubernetes for DB persistence volume
+21) ![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/6135f716-1951-40bc-b45e-ba8f08c823e3)
+22) Store the values in secret files recommeded
+
+--------------------------------------
+IN one picture  ( MAIN IMPLEMENTATION)
+--------------------------------------
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/cdba20c1-f786-43e5-a261-b3ac78e643fd)
+
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/327ca7a9-9e19-4ad7-b826-cc73b6a83df3)
+
+Step1 ) After connecting to the --> Connect as root user 
+``` sudo su
+```
+Step2) Update the packages
+``` yum update -y 
+``` 
+Here -y is used to type yes/Y to update the packages
+
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/84b2cf92-c17c-4282-a6fc-fb1bd21242e8)
+
+step3) Install docker
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/68b5880d-8b54-411d-80fb-9525e18279fd)
+
+``` amazon-linux-extras install docker
+```
+Check docker version
+``` docker -v
+```
+Step5) Start docker as service
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/4c7775f7-13a0-45f3-9349-207025c226f9)
+``` systemctl start docker
+    systemctl stop docker
+    systemctl status docker
+    systemctl restart docker
+    systemctl enable docker
+```
+Step6) Install Git and conntrack
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/cfd2b2a6-687a-4261-833a-21ad38debcc5)
+
+Conntrack is software needed for the kubernetes to run (manikube)
+```
+    yum install conntrack -y
+```
+``` yum install git -y
+```
+Step 7) Installing k8's or Kubernets
+Minikube is the platform to start kubernets
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/04805c94-2c2d-4b21-9588-1ef720beecf0)
+
+Download minikube
+```
+    curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+```
+Here -LO -- O means output
+
+Install minikube
+```
+   sudo install minikube-linux-amd64 /usr/local/bin/minikube
+```
+
+Step 8) Start Minikube
+![image](https://github.com/pavankumar0077/DevOps_Spring_boot_project/assets/40380941/4664e3b2-c47a-4355-ae04-112545b1d3ca)
+
+Here we are using docker as a driver
+In windows we use docker or hyper v as a driver
+```
+    /usr/local/bin/minikube start --force --driver=docker
+```
+```
+    /usr/local/bin/minikube version
+```
+
+
+
+
+
+
+
+
 
 
 
