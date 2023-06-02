@@ -166,7 +166,63 @@ In windows we use docker or hyper v as a driver
     /usr/local/bin/minikube version
 ```
 
+9. Install kubectl
 
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+
+/usr/local/bin/kubectl version
+
+10. Make the DB up
+
+11.yum install maven -y	
+
+12. Create the docker image
+
+docker build -t praveensingam1994/springboot-crud-k8s:1.0 .
+
+13. docker login
+
+
+14. /usr/local/bin/kubectl  apply -f app-deployment.yaml
+
+15. /usr/local/bin/kubectl  get svc
+
+16.  /usr/local/bin/minikube ip
+
+17. http://<minikubeIP>:31125/orders
+
+
+18. PUT PORT FORWARD
+
+/usr/local/bin/kubectl port-forward --address 0.0.0.0 svc/springboot-crud-svc 8080:8080 &
+
+[HOST PORT TO CONTAINER PORT 
+
+
+kubectl port-forward --address 0.0.0.0 svc/{your service name} {external port to the Internet}:{your service port, the port your app is listening on in it's container}
+
+for example, if my service is named badstore and is listening on 80
+
+kubectl port-forward --address 0.0.0.0 svc/badstore 8888:80
+
+    
+    19) INGRESS RESOUCES 
+    20) INGRESS CONTROLLER
+    -- install controller in minikube 
+    ```
+        minikube addons enable ingress
+    ```
+    ref link: https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/
+    
+    add minikube ip and ingress host add in /etc/hosts file
+    ```
+        sudo /etc/hosts/
+        add 192.168.39.30   k8sdemo
+    ```
+    
+    
 
 
 
